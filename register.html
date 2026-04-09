@@ -1,11 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome to Kay's</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="Stylesheet">
+    <link rel="stylesheet" href="mainstyle.css">
 </head>
+<style>
+    a {
+        color: black !important;
+    }
+
+
+    #container {
+        margin: auto 100px;
+        width: 300px;
+    }
+
+    input {
+        width: 100%;
+        height: 40px;
+        margin: 20px;
+    }
+
+    #form-container {
+        background-color: white;
+        border-radius: 15px;
+        width: 100%;
+        padding: 40px;
+        max-width: fit-content;
+        box-shadow: inset;
+    }
+
+
+
+    button {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .form-control:focus {
+        box box-shadow: 0 0 10px rgba(118, 75, 162, 0.4);
+        border-color: #764ba2;
+    }
+
+    .hidden {
+        display: none;
+    }
+</style>
+
 <body>
-    
-</body>
-</html>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="container-fluid">
+            <img width="5%" src="images/black-and-white-open-book-logo-illustration-on-white-background-free-vector.jpg"
+                class="rounded" alt="logo">
+            <a class="navbar-brand" href="">Kay's store!!<3 </a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span
+                            class="navbar-toggler-icon">ww</span></button>
+                    <div class="navbar-collapse collapse" id="menu">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="product-details.html">About Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+                            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                            <li class="nav-item"><a class="nav-link" href="register.html">Register!</a></li>
+                            <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About us!</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacts us!</a></li>
+                        </ul>
+                    </div>
+
+        </div>
+
+    </nav>
+
+    <div id="form-container">
+        <div class="form-container">
+
+            <h4 class="text-center">wanna join us?</h4>
+
+            <h1 class="text-center mb-4">Register here!</h1>
+
+
+            <form class="row g-4 needs-validation" novalidate>
+
+                <!-- Personal Info -->
+                <div class="col-12">
+                    <h5 class="section-title">Personal Information</h5>
+                </div>
+
+                <div class="col-md-6 form-floating">
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                    <label for="firstName">First Name</label>
+                </div>
+
+                <div class="col-md-6 form-floating">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                    <label for="lastName">Last Name</label>
+                </div>
+
+                <div class="col-md-6 form-floating">
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                    <label for="email">Email Address</label>
+                </div>
+
+                <div class="col-md-6 form-floating">
+                    <input type="tel" class="form-control" id="phone" placeholder="Phone">
+                    <label for="phone">Phone Number</label>
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Gender</label>
+                    <div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" required>
+                            <label class="form-check-label">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender">
+                            <label class="form-check-label">Female</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Date of Birth</label>
+                    <input type="date" class="form-control">
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Profile Picture</label>
+                    <input type="file" class="form-control">
+                </div>
+
+                <!-- Address -->
+                <div class="col-12 mt-4">
+                    <h5 class="section-title">Address Details</h5>
+                </div>
+
+                <div class="col-12">
+                    <input type="text" class="form-control" placeholder="Street Address">
+                </div>
+
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="City">
+                </div>
+
+                <div class="col-md-3">
+                    <input type="text" class="form-control" placeholder="State">
+                </div>
+
+                <div class="col-md-3">
+                    <input type="text" class="form-control" placeholder="Zip Code">
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Country</label>
+                    <select class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Canada</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                    </select>
+                </div>
+
+                <!-- Account Settings -->
+                <div class="col-12 mt-4">
+                    <h5 class="section-title">Account Settings</h5>
+                </div>
+
+                <div class="col-md-6 form-floating">
+                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    <label for="password">Password</label>
+                </div>
+
+                <div class="col-md-6 form-floating">
+                    <input type="password" class="form-control" placeholder="Confirm Password" required>
+                    <label>Confirm Password</label>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Receive Email Notifications</label>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" required>
+                        <label class="form-check-label">
+                            I agree to the terms and conditions
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="col-12 text-center mt-4">
+                    <button type="reset" class="btn btn-outline-secondary me-3">Reset</button>
+                    <button type="button" class="btn btn-custom px-5" data-bs-toggle="modal"
+                        data-bs-target="#submitModal">
+                        Submit
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
