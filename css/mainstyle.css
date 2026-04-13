@@ -9,3 +9,23 @@ body{
 .container {
     max-width: 900px;
 }
+
+.section-title {
+    
+}
+
+
+/*cart*/
+.cart-item{
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.footer-bottom{
+    text-align: center;
+    color: black;
+    border-top: 5px;
+    margin-top: auto;
+}
