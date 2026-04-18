@@ -1,80 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kay's</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="Stylesheet">
-    <link rel="stylesheet" href="mainstyle.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Kay's</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="Stylesheet">
+  <link rel="stylesheet" href="mainstyle.css">
 </head>
-<style> a {
-  color: black !important;} </style>
-  
+<style>
+  a {
+    color: black !important;
+  }
+
+  .carousel-caption{
+    background:rgb(from color r g b);
+
+  }
+
+   body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+</style>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-      
-        <div class="container-fluid">
-            <img width="5%" src="images/black-and-white-open-book-logo-illustration-on-white-background-free-vector.jpg" class="rounded" alt="logo">
-            <a class="navbar-brand" href="">Kay's store!!<3 </a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon">ww</span></button>
-            <div class="navbar-collapse collapse" id="menu">
-                <ul class="navbar-nav ms-auto" >
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="product-details.html">About Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
-                    <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
-                    <li class="nav-item"><a class="nav-link" href="loginn.html">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="register.html">Register!</a></li>
-                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About us!</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contacts us!</a></li>
-                </ul>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light">
 
-        </div>
-    </nav>
+    <div class="container-fluid">
+      <img width="5%" src="images/bookstore.jpg" class="rounded" alt="logo">
+      <a class="navbar-brand" href="index.html">Kay's store!!<3 </a>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span
+              class="navbar-toggler-icon">ww</span></button>
+          <div class="navbar-collapse collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+              <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+              <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+              <li class="nav-item"><a class="nav-link" href="loginn.html">Login</a></li>
+              <li class="nav-item"><a class="nav-link" href="register.html">Register!</a></li>
+              <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About us!</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contacts us!</a></li>
+            </ul>
+          </div>
 
-
-    
-<footer>
-    <div class="container" style="text-align: center;">
-        <div class="col-md-3">
-            <h7>Kay's Store</h7>
-        </div>
-
-        <div class="footerBottom">@2026 Kay's store. ALL rights reserved.</div>
     </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </nav>
 
 
 
-    <!--
-    
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/images/boksss.webp" alt="" class="d-block" style="height: 1000px;">
+        <div class="carousel-caption">
+          <h3>Your Favourite Bookstore, Eveywhere!</h3>
+          <p>We bought so many books in LA!</p>
+
+          <div class="lc-block d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a class="btn btn-outline-secondary btn-lg px-4" href="products.html" role="button">Shop now</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/bookss.webp" alt="" class="d-block" style="height: 1000px; width: 100%;">
+        <div class="carousel-caption">
+          <h3>Unlimited and Top Book Collections!</h3>
+          <p>Thank you, Chicago!</p>
+
+          <div class="lc-block d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a class="btn btn-outline-secondary btn-lg px-4" href="products.html" role="button">Shop now</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/booksss.jpg" alt="" class="d-block" style="height: 1000px; width: 100%;">
+        <div class="carousel-caption">
+          <h3>You</h3>
+          <p>We love the Big Apple!</p>
+
+          <div class="lc-block d-grid gap-2 d-sm-flex justify-content-sm-center text-light">
+            <a class="btn btn-outline-secondary btn-lg px-4 text-light" href="products.html" role="button">Shop now</a>
+          </div>
+        </div>
 
 
-    <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-  </li>
-</ul>
--->
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
 
 
 
 
 
-    
+  <!--
+    <div class="container-fluid px-4 py-5 my-5 text-center">
+	<div class="lc-block d-block mx-auto mb-4">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="5em" height="5em" lc-helper="svg-icon" fill="currentColor">
+			<path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"></path>
+		</svg>
+	</div>
+	<div class="lc-block">
+		<div editable="rich">
+
+			<h2 class="display-5 fw-bold">Kay's store!</h2>
+
+		</div>
+	</div>
+	<div class="lc-block col-lg-6 mx-auto mb-4">
+		<div editable="rich">
+
+			<p class="lead ">Step into a world where stories spill off the shelves and imagination runs wild. Our bookstore is a kaleidoscope of colors, cozy corners, and unexpected treasures—where every book feels like a new adventure waiting to happen. Whether you're chasing dragons, solving mysteries, or falling in love, there’s a little magic here for everyone.</p>
+
+		</div>
+	</div>
+
+	<div class="lc-block d-grid gap-2 d-sm-flex justify-content-sm-center"> 
+		<a class="btn btn-outline-secondary btn-lg px-4" href="#" role="button">Shop now</a>
+	</div>
+</div>
+ -->
+
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="lc-block">
+          <h2 editable="inline" class="display-2 mb-0"><b>Featured Books</b></h2>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-3">
+        <div class="p-lg-5 p-4 shadow">
+          <div class="lc-block mb-4"><img alt="" class="img-fluid" src="images/shining full.webp" style="height:30vh">
+
+
+            <h4 class="my-3" editable="inline"></h4>
+            <h5>The Shinning</h5>
+            <p editable="inline">Stephen King</p>
+
+
+            <a class="btn btn-outline-primary" href="#" role="button">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-lg-5 p-4 shadow">
+          <div class="lc-block mb-4">
+            <img alt="" class="img-fluid" src="images/maidens full.webp" style="height:30vh">
+
+
+            <h4 class="my-3" editable="inline"></h4>
+            <h5>The Maidens</h5>
+            <p editable="inline">Alex Michaeledis</p>
+
+
+            <a class="btn btn-outline-primary" href="#" role="button">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-lg-5 p-4 shadow">
+          <div class="lc-block mb-4">
+            <img alt="" class="img-fluid" src="images/OIP (4).webp" style="height:30vh">
+
+            <h4 class="my-3" editable="inline"></h4>
+            <h5>The Inheritance Games</h5>
+            <p editable="inline">Lily Colins</p>
+
+            <a class="btn btn-outline-primary" href="#" role="button">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-lg-5 p-4 shadow">
+          <div class="lc-block mb-4">
+            <img alt="" class="img-fluid" src="images/sixofcrows full.webp" style="height:30vh">
+
+            <h4 class="my-3" editable="inline"></h4>
+            <h5>Six of Crows</h5>
+            <p editable="inline">Leigh Bardugo</p>
+
+            <a class="btn btn-outline-primary" href="#" role="button">Read more</a>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+
+
+
+            <section class="text-dark bg-dark" style="color: white !important;">
+                <div class="container py-5">
+                    <div class="row gy-5">
+                        <div class="col-sm-6 col-lg-4 mw-lg-2">
+                            <div class="lc-block mb-4 ">
+
+                                <a class="navbar-brand text-light" href="index.html">
+
+                                    <img src="/images/bookstore.jpg" width="48" height="48"
+                                        class="d-inline-block align-middle img-fluid" alt="Bootstrap 5 Snippets"
+                                        style="color: white !important;"> Kay's Store!</a>
+
+
+                            </div>
+                            <div class="lc-block text">
+                                <div editable="rich">
+                                    <p class="text-light text-opacity-75">At Tech Innovations Inc., we harness
+                                        cutting-edge technology to deliver innovative solutions that empower businesses
+                                        and enhance lives.</p>
+                                </div>
+                            </div>
+                            <div class="lc-block hstack gap-2">
+                                <a class="text-decoration-none text-light" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em"
+                                        fill="currentColor" viewBox="0 0 16 16" style="" lc-helper="svg-icon">
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="text-decoration-none text-light" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em"
+                                        fill="currentColor" viewBox="0 0 16 16" lc-helper="svg-icon">
+                                        <path
+                                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="text-decoration-none text-light" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em"
+                                        fill="currentColor" viewBox="0 0 16 16" style="" lc-helper="svg-icon">
+                                        <path
+                                            d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z">
+                                        </path>
+                                    </svg>
+                                </a>
+
+                            </div>
+
+                        </div>
+                        <div class="col-sm-6 col-lg-3 ms-lg-auto text-light">
+                            
+
+                            <div class="lc-block" style="color: white !important;">
+                                <h4 class="fs-6 fw-bold text-light">More from us</h4>
+
+                                <ul class="nav flex-column text-light">
+                                   
+                                    <a class="nav-link link-light ps-0" href="about.html">About us</a>
+                                    <a class="nav-link link-light ps-0" href="products.html">Our Products</a>
+                                    <a class="nav-link link-light ps-0" href="register.html">Join us</a>
+
+                                </ul>
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-sm-6 col-lg-3 text-light">
+                            
+                            <div class="lc-block">
+                                <h4 class="fs-6 fw-bold text-light">Categories</h4>
+
+
+                                <ul class="nav flex-column">
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link link-light ps-0" href="about.html">About us</a>
+                                        <a class="nav-link link-light ps-0" href="products.html">Our Products</a>
+                                        <a class="nav-link link-light ps-0" href="register.html">Join us</a>
+
+
+
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <div class="col-sm-6 col-lg-2">
+
+                           
+
+                            <div class="lc-block">
+                                <h4 class="fs-6 fw-bold">Latest for our blog</h4>
+
+
+                                <ul class="nav flex-column">
+                                    <!-- Loop to display the Primary Menu -->
+                                    <li class="nav-item">
+                                        <a class="nav-link link-light ps-0 text-light"
+                                            href="https://library.livecanvas.com/sections/2024/10/17/bootstrap-vs-tailwind-which-css-framework-is-right-for-your-project/">
+                                            Bootstrap vs. Tailwind: Which CSS Framework Is Right for Your Project?
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link link-light ps-0 text-light"
+                                            href="https://library.livecanvas.com/sections/2024/10/17/css-in-2030-will-utility-first-frameworks-dominate-the-future/">
+                                            CSS in 2030: Will Utility-First Frameworks Dominate the Future?
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link link-light ps-0 text-light"
+                                            href="https://library.livecanvas.com/sections/2024/10/07/getting-started-with-bootstrap-5-3-an-essential-guide-for-beginners/">
+                                            Getting Started with Bootstrap 5.3: An Essential Guide for Beginners
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="py-5 container">
+                    <div class="row">
+                        <div class="col-6 small">
+
+                            <div class="lc-block">
+
+                                <p>Copyright © Kay's Store 2026
+                                </p>
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="col-6 text-end small">
+                            <div class="lc-block">
+                                <div editable="rich">
+                                    <p>
+                                        <a class="text-decoration-none text-light" href="#">License Details</a> -
+                                        <a class="text-decoration-none text-light" href="#">Terms &amp; Conditions</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </html>
